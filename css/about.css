@@ -1,0 +1,73 @@
+#about {
+	background-color: #f2f2f2;
+	padding: 60px 0;
+}
+
+#about .dentro-informacao {
+	background-color: white;
+}
+
+#about .section-title1 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	letter-spacing: -0.9px;
+}
+#about .section-title2 {
+	font-weight: 700;
+	letter-spacing: -0.5px;
+}
+#about p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#about .row:first-of-type .col-md-12 {
+	text-align: center;
+}
+
+#about .row:first-of-type .col-md-12 img {
+	max-width: 100%;
+}
+
+#about .row:last-of-type {
+	padding: 20px 0px;
+
+	border-radius: 20px;
+}
+
+@media (min-width: 992px) {
+	#about .row:last-of-type {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+}
+
+.btn-wine {
+	background-color: #8b0000;
+	color: #fff;
+	border-color: #8b0000;
+	position: relative;
+	border-radius: 20px;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.btn-wine:hover {
+	background-color: rgb(200, 198, 198);
+	border-color: black;
+	transition: all 0.3s ease-in-out;
+	transform: scale(1.01);
+}
+
+.btn-white {
+	background-color: #fff;
+	color: #363636;
+	border-color: #363636;
+	position: relative;
+	border-radius: 20px;
+	font-weight: lighter;
+	font-size: 18px;
+}

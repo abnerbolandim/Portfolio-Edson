@@ -1,0 +1,46 @@
+.trabalhos-title {
+	text-align: center;
+	margin: 5px;
+	font-size: 39px;
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	letter-spacing: -1.5px;
+	color: #001427;
+}
+
+.trabalhos-subtitle {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 19px;
+	color: #001427;
+	font-weight: lighter;
+}
+
+section {
+	padding: 50px 0;
+}
+
+section h2 {
+	margin: 0 0 30px;
+}
+
+section p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.card {
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.card img {
+	max-width: 100%;
+}
+
+.card:hover {
+	transition: 1s;
+	transform: scale(1.1);
+	background-color: #343a40;
+}
