@@ -14,10 +14,16 @@
 }
 
 .footer-subtitle {
-	padding: 0 150px 0 150px;
+	padding: 0 0px 0 0px;
 	font-size: 18px;
 	margin-bottom: 20px;
 	font-weight: lighter;
+}
+
+@media (min-width: 992px) {
+	.footer-subtitle {
+		padding: 0 150px 0 150px;
+	}
 }
 
 footer .btn {
