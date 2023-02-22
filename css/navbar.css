@@ -9,6 +9,14 @@ body {
 	font-family: Arial, sans-serif;
 }
 
+.navbar-collapse {
+	display: none;
+}
+
+.navbar-collapse.show {
+	display: block;
+}
+
 nav.navbar-transparente {
 	padding: 15px 0px;
 	background: rgba(0, 0, 0, 0.6);
