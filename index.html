@@ -42,6 +42,19 @@
 		<link rel="stylesheet" type="text/css" href="css/other-footer.css" />
 
 		<link rel="icon" href="images/Icon-Edson.svg" />
+
+		<script>
+			$(function () {
+				var navbar = $(".navbar-collapse");
+				var width = $(window).width();
+				$(window).on("resize", function () {
+					if ($(this).width() != width) {
+						width = $(this).width();
+						navbar.collapse("hide");
+					}
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<header>
