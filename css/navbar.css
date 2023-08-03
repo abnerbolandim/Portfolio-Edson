@@ -39,7 +39,7 @@ nav.navbar-transparente {
 .navbar-light .navbar-nav .nav-contato:hover {
 	color: #1ad03f;
 	transition: 0.3s;
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 .navbar-light .navbar-toggler {
