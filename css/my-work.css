@@ -33,6 +33,8 @@ section p {
 	margin-bottom: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
+	transition: 1s;
+
 }
 
 .card img {
@@ -41,7 +43,7 @@ section p {
 
 .card:hover {
 	transition: 1s;
-	transform: scale(1.1);
+	transform: scale(1.15);
 	background-color: #343a40;
 }
 

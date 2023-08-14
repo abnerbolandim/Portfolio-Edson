@@ -32,11 +32,11 @@ footer .btn {
 	border-radius: 30px;
 	background-color: #61ce70;
 	border-color: black;
+	transition: 0.5s;
 }
 
 footer .btn:hover {
 	border-color: black;
 	background-color: #46ad53;
 	transform: scale(1.2);
-	transition: 0.5s;
 }
