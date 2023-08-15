@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Meu Portfólio</title>
+		<title>Portfolio | Edson Bolandim</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -53,17 +53,8 @@
 			crossorigin="anonymous">
 		</script>
 
-		<script>
-			$(function () {
-				var navbar = $(".navbar-collapse");
-				var width = $(window).width();
-				$(window).on("resize", function () {
-					if ($(this).width() != width) {
-						width = $(this).width();
-						navbar.collapse("hide");
-					}
-				});
-			});
+		<script src="script.js">
+			
 		</script>
 
 	
@@ -71,7 +62,7 @@
 	<body>
 		<header>
 			<nav
-				class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente " 
+				class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent" 
 				data-aos="fade-down"
 				data-aos-offset="0"
 				data-aos-duration="800"
@@ -95,16 +86,16 @@
 								<a href="index.html" class="nav-link">Home</a>
 							</li>
 							<li class="nav-item">
-								<a href="#trabalhos" class="nav-link">Trabalhos</a>
+								<a href="#works" class="nav-link">Trabalhos</a>
 							</li>
 							<li class="nav-item">
 								<a href="#about" class="nav-link">Sobre mim</a>
 							</li>
 
-							<li class="nav-item divisor"></li>
+							<li class="nav-item division"></li>
 
 							<li class="nav-item">
-								<a href="" class="nav-link nav-contato"
+								<a href="" class="nav-link nav-contact"
 									>Entre em contato agora
 									<i class="ml-1 fa fa-whatsapp fa-1x"></i
 								></a>
@@ -135,7 +126,8 @@
 						Faço serviços de pedreiro geral, azulejista, acabamento e alvenaria
 						para residências, empresas e condomínios.
 					</h4>
-					<div 							data-aos="fade-up"
+					<div 							
+						data-aos="fade-up"
 						data-aos-offset="0"
 						data-aos-duration="800">
 						<a
@@ -149,14 +141,14 @@
 			</div>
 		</section>
 
-		<section id="trabalhos">
+		<section id="works">
 			<div class="container">
-				<h2 class="trabalhos-title" 
+				<h2 class="works-title" 
 				data-aos="fade-down"
 				data-aos-offset="50"
 				data-aos-duration="0">Meus trabalhos</h2>
 
-				<h4 class="trabalhos-subtitle" 
+				<h4 class="works-subtitle" 
 				data-aos="fade-down"
 				data-aos-offset="100"
 				data-aos-duration="500">
@@ -168,17 +160,17 @@
 				data-aos-duration="700">
 					<div class="col-lg-4 col-10">
 						<div class="card">
-							<img class="card-img-top" src="images/casa1.png" alt="Casa 1" />
+							<img class="card-img-top" src="images/house1.png" alt="Casa 1" />
 						</div>
 					</div>
 					<div class="col-lg-4 col-10">
 						<div class="card">
-							<img class="card-img-top" src="images/casa2.png" alt="Casa 2" />
+							<img class="card-img-top" src="images/house2.png" alt="Casa 2" />
 						</div>
 					</div>
 					<div class="col-lg-4 col-10">
 						<div class="card">
-							<img class="card-img-top" src="images/casa3.png" alt="Casa 3" />
+							<img class="card-img-top" src="images/house3.png" alt="Casa 3" />
 						</div>
 					</div>
 				</div>
@@ -187,7 +179,7 @@
 
 		<section id="about" class="section">
 			<div class="container">
-				<div class="dentro-informacao row">
+				<div class="inside-information row">
 					<div class="col-md-6" 
 					data-aos="fade-right"
 					data-aos-offset="150"
@@ -195,9 +187,9 @@
 						<div class="row">
 							<div class="col-md-12">
 								<img
-									src="images/pedreiro.png"
+									src="images/bricklayer.png"
 									class="img-fluid about-img"
-									alt="Foto de Perfil"
+									alt="Pedreiro"
 								/>
 							</div>
 						</div>
@@ -238,48 +230,48 @@
 
 		<section id="my-section">
 			<div class="row">
-				<div class="dentro_informacao col-lg-3 col-md-6 col-sm-6 col-xs-12" 
+				<div class="within-information col-lg-3 col-md-6 col-sm-6 col-xs-12" 
 				data-aos="fade-down"
 				data-aos-offset="140"
 				data-aos-duration="1000">
 					<div class="img-container">
-						<img src="images/azulejista.png" alt="Imagem 1" />
+						<img src="images/tilemaker.png" alt="Azulejista" />
 					</div>
 					<p class="section-description">
 						<strong>Serviço de Azulejista:</strong><br> especializado em assentamento de cerâmicas,
 						azulejos e porcelanatos.
 					</p>
 				</div>
-				<div class="dentro_informacao col-lg-3 col-md-6 col-sm-6 col-xs-12" 
+				<div class="within-information col-lg-3 col-md-6 col-sm-6 col-xs-12" 
 				data-aos="fade-up"
 				data-aos-offset="140"
 				data-aos-duration="1000">
 					<div class="img-container">
-						<img src="images/servicos-gerais.png" alt="Imagem 2" />
+						<img src="images/generalservices.png" alt="Serviços Gerais" />
 					</div>
 					<p>
 						<strong>Serviços Gerais:</strong><br> faço coluna, viga, parede, reboco, rede hidráulica,
 						instalo portas, janelas e reforma de telhados.
 					</p>
 				</div>
-				<div class="dentro_informacao col-lg-3 col-md-6 col-sm-6 col-xs-12" 
+				<div class="within-information col-lg-3 col-md-6 col-sm-6 col-xs-12" 
 				data-aos="fade-down"
 				data-aos-offset="140"
 				data-aos-duration="1000">
 					<div class="img-container">
-						<img src="images/acabamento.png" alt="Imagem 3" />
+						<img src="images/finishing.png" alt="Acabamento" />
 					</div>
 					<p>
 						<strong>Acabamento:</strong><br> assentamento de bancadas (granitos e mármores),
 						instalação de louças e metais.
 					</p>
 				</div>
-				<div class="dentro_informacao col-lg-3 col-md-6 col-sm-6 col-xs-12" 
+				<div class="within-information col-lg-3 col-md-6 col-sm-6 col-xs-12" 
 				data-aos="fade-up"
 				data-aos-offset="140"
 				data-aos-duration="1000">
 					<div class="img-container">
-						<img src="images/alvenaria.png" alt="Imagem 4" />
+						<img src="images/brickwork.png" alt="Alvenaria" />
 					</div>
 					<p>
 						<strong>Alvenaria:</strong><br> tijolos cerâmicos ou de bloco de concreto. Faço
