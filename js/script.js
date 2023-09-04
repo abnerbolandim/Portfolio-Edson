@@ -8,3 +8,12 @@ $(function () {
         }
     });
 });
+
+$(document).on("click", function(event){
+    var navbar = $(".navbar-collapse");
+    var navbarButton = $(".navbar-toggler");
+
+    if (!navbar.is(event.target) && !navbarButton.is(event.target) && navbar.hasClass("show")) {
+        navbar.collapse("hide");
+    }
+});
