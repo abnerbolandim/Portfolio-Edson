@@ -1,15 +1,18 @@
 html,
 body {
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 body {
 	font-family: Arial, sans-serif;
+	box-sizing: unset;
 }
 
-.navbar-collapse {
+
+/* .navbar-collapse {
 	display: none;
-}
+} */
 
 .navbar-collapse.show {
 	display: block;
