@@ -6,7 +6,7 @@ function scrollToTop() {
   }
   
   function handleScroll() {
-    var scrollToTopBtn = document.querySelector(".scroll-to-top");
+    let scrollToTopBtn = document.querySelector(".scroll-to-top");
     if (window.scrollY > 300) {
       scrollToTopBtn.classList.add("showBtn");
     } else {
