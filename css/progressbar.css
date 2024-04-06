@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .progress-container {
+    background-color: #000000;
+    height: 10px;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    background-color: #d3843d;
+    height: 10px;
+    width: 0%;
+  }
