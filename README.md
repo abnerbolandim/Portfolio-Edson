@@ -1,1 +1,3 @@
-Portfolio com muito amor e carinho para o meu pai <3
+-> Portfolio para o meu pai com muito amor e carinho <3
+
+-> Portfolio for my dad with much love and affection <3
