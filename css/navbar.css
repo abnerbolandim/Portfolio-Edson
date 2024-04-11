@@ -26,7 +26,7 @@ nav.navbar-transparent {
 .navbar-light .navbar-nav .nav-link {
 	color: white;
 	transition: 0.3s;
-
+	font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-contact {
@@ -41,7 +41,7 @@ nav.navbar-transparent {
 .navbar-light .navbar-nav .nav-contact:hover {
 	color: #1ad03f;
 	transition: 0.3s;
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 
 .navbar-light .navbar-toggler {
