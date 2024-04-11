@@ -1,6 +1,12 @@
 #about {
-	background-color: #f2f2f2;
-	padding: 60px 0;
+	background-color: #c4c0c0;
+	/* padding: 60px 0; */
+}
+
+.shapedivider01{
+	width: 100vw;
+	margin-top: -1px;
+	padding: 0px 0px 60px;
 }
 
 #about .inside-information {
