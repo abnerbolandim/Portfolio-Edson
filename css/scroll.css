@@ -1,12 +1,14 @@
 .scroll-to-top {
     background-color: black;
-    border: none;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
     color: white;
     cursor: pointer;
     border-radius: 50px;
     font-size: 18px;
     line-height: 48px;
-    width: 48px;
+    width: 55px;
     
     position: fixed;
     bottom: 20px;
@@ -15,6 +17,16 @@
     opacity: 0;
     transform: translateY(100px);
     transition: all 0.5s ease;
+  }
+
+  .scroll-to-top:hover{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+
   }
   
   .scroll-to-top.showBtn {
