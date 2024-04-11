@@ -1,7 +1,12 @@
 .other-footer {
-	background-color: #61ce70;
-	padding: 10px;
+	/* background-color: #61ce70; */
+	/* padding: 10px; */
 
 	font-size: 15px;
 	text-align: center;
+}
+
+.paragraph-footer{
+	font-weight: 600;
+	margin: 5px;
 }
