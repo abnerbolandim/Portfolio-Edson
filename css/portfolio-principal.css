@@ -69,5 +69,6 @@
 
 .btn-wine-portfolio:hover {
 	color: #c5c5c5;
-	transform: scale(1.08);
+	font-size: 20p;
+	transform: scale(1.1);
 }
