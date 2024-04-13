@@ -66,10 +66,18 @@ section p {
   }
   
   .lightbox-content {
+	padding: 15px;
 	margin: auto;
 	display: block;
 	max-width: 90%;
 	max-height: 90%;
+  }
+
+  .lightbox-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
   }
   
   .close {
