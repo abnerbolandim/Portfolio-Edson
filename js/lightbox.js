@@ -1,4 +1,13 @@
 function openLightbox(imageUrl) {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const lightboxImgContainer = document.getElementById("lightbox-img-container");
+
+  lightboxImg.src = imageUrl;
+  lightbox.style.display = "block";
+}
+
+function openLightbox(imageUrl) {
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
   
