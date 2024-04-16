@@ -80,3 +80,8 @@
 	transform: translate(-50%, -50%);
 	height: 150px;
 }
+
+#click-gif.hideGif{
+	opacity: 0;
+	transition: ease 0.5s;
+}

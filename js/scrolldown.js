@@ -9,3 +9,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+  function scrollDown(){
+    let gifScroll = document.getElementById('click-gif');
+    if (window.scrollY > 100) {
+      gifScroll.classList.add("hideGif");
+    } else {
+      gifScroll.classList.remove("hideGif");
+    }
+  }
+
+window.addEventListener("scroll", scrollDown);
