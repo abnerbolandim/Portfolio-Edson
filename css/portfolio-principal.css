@@ -6,7 +6,7 @@
 
 .background-image {
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 100vh;
+	height: 107vh;
 	background-image: url("../images/mainmason.png");
 	background-size: cover;
 	background-position: center;
@@ -71,4 +71,12 @@
 	color: #c5c5c5;
 	font-size: 20p;
 	transform: scale(1.1);
+}
+
+#click-gif{ 
+	position: absolute;
+	left: 50%;
+	top: 95%;
+	transform: translate(-50%, -50%);
+	height: 150px;
 }
