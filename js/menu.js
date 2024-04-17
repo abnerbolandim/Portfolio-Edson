@@ -1,19 +1,24 @@
-$(function () {
-    let navbar = $(".navbar-collapse");
-    let width = $(window).width();
-    $(window).on("resize", function () {
-        if ($(this).width() != width) {
-            width = $(this).width();
-            navbar.collapse("hide");
+document.addEventListener("DOMContentLoaded", function () {
+    let navbar = document.querySelector(".navbar-collapse");
+    let width = window.innerWidth;
+
+    window.addEventListener("resize", function () {
+        if (window.innerWidth !== width) {
+            width = window.innerWidth;
+            navbar.classList.remove("show");
         }
     });
-});
 
-$(document).on("click", function(event){
-    let navbar = $(".navbar-collapse");
-    let navbarButton = $(".navbar-toggler");
+    document.addEventListener("click", function (event) {
+        let navbar = document.querySelector(".navbar-collapse");
+        let navbarButton = document.querySelector(".navbar-toggler");
 
-    if (!navbar.is(event.target) && !navbarButton.is(event.target) && navbar.hasClass("show")) {
-        navbar.collapse("hide");
-    }
+        if (
+            !navbar.contains(event.target) &&
+            !navbarButton.contains(event.target) &&
+            navbar.classList.contains("show")
+        ) {
+            navbar.classList.remove("show");
+        }
+    });
 });
