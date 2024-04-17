@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function scrollDown(){
     let gifScroll = document.getElementById('click-gif');
-    if (window.scrollY > 100) {
+    if (window.scrollY > 30) {
       gifScroll.classList.add("hideGif");
     } else {
       gifScroll.classList.remove("hideGif");
