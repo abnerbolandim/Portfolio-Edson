@@ -23,6 +23,13 @@ nav.navbar-transparent {
 	background: rgba(0, 0, 0, 0.6);
 }
 
+@media (max-width: 320px) {
+	.logo-edson {
+		width: 200px;
+	}
+}
+
+
 .navbar-light .navbar-nav .nav-link {
 	color: white;
 	transition: 0.3s;
@@ -53,4 +60,16 @@ nav.navbar-transparent {
 	width: 1px;
 	background: white;
 	margin: 12px 30px;
+}
+
+.fa-times {
+	transform: rotate(360deg);
+  }
+  
+#icon {
+	width: 1.5rem; 
+    height: 2rem; 
+	font-size: 1.75rem;
+	cursor: pointer;
+	transition: 1s;
 }
